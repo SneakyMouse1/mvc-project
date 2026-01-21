@@ -1,0 +1,9 @@
+[
+    {
+        "id": 1,
+        "referencia": 1234423,
+        "descripcion": "Description 1. Lorem Ipsum",
+        "precio": "100.00",
+        "tipo_iva": "4.00"
+    }
+]
