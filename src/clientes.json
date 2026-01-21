@@ -1,0 +1,38 @@
+[
+    {
+        "id": 4,
+        "nombre": "John",
+        "apellidos": "Doe",
+        "email": "john.doe@example.com",
+        "contrasenya": "NW9ESWRyYlpQQlhVNHRCNVQ1bWJnUT09",
+        "direccion": "Calle Kuku",
+        "cp": "03002",
+        "poblacion": "Alicante",
+        "provincia": "Alicante",
+        "fecha_nac": "1956-02-10 00:00:00"
+    },
+    {
+        "id": 5,
+        "nombre": "Semyon",
+        "apellidos": "Smyslov",
+        "email": "smyslovich@gmail.com",
+        "contrasenya": "elhvUVJReCtmTFNURjZEb0RsbEtJZz09",
+        "direccion": "Calle Felix Rodriguez de la Fuente 25",
+        "cp": "03002",
+        "poblacion": "Alicante",
+        "provincia": "Alicante",
+        "fecha_nac": "1989-04-25 00:00:00"
+    },
+    {
+        "id": 6,
+        "nombre": "Liubov",
+        "apellidos": "Smyslova",
+        "email": "email@example.com",
+        "contrasenya": "RlhZcFNRaEJoS1JhdXd1Y21tK0xoQT09",
+        "direccion": "Alvarez 12",
+        "cp": "03002",
+        "poblacion": "Alicante",
+        "provincia": "Alicante",
+        "fecha_nac": "1959-01-19 00:00:00"
+    }
+]
