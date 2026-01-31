@@ -9,7 +9,7 @@
             <th class="bg-primary">Id</th>
             <th class="text-uppercase">Nombre</th>
             <th class="border-4 border-primary">Apellidos</th>
-            <th>Email</th>
+            <th class="border shadow-lg p-3 mb-5 bg-body-tertiary rounded">Email</th>
             <th>Contraseña</th>
             <th>Dirección</th>
             <th>CP</th>
