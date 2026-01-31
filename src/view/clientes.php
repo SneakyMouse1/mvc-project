@@ -54,7 +54,7 @@
             <td colspan="4">
                 <!-- Add new client -->
                 <a href="index.php?c=clientes&m=nuevo">
-                    <button type="button" class="btn btn-primary">Nuevo</button>
+                    <button type="button" class="btn btn-success text-uppercase">Nuevo</button>
                 </a>
                 <a href="index.php?c=clientes&m=exportar">
                     <button type="button" class="btn btn-success">Exportar(CSV)</button>
