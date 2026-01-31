@@ -6,7 +6,7 @@
     <thead>
         <!-- Table header with client columns -->
         <tr class="text-center">
-            <th>Id</th>
+            <th class="bg-primary">Id</th>
             <th>Nombre</th>
             <th>Apellidos</th>
             <th>Email</th>
