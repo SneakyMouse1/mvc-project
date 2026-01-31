@@ -7,7 +7,7 @@
         <!-- Table header with client columns -->
         <tr class="text-center">
             <th class="bg-primary">Id</th>
-            <th>Nombre</th>
+            <th class="text-uppercase">Nombre</th>
             <th>Apellidos</th>
             <th>Email</th>
             <th>Contraseña</th>
