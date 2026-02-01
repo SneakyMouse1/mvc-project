@@ -6,10 +6,10 @@
     <thead>
         <!-- Table header with client columns -->
         <tr class="text-center">
-            <th class="bg-primary">Id</th>
-            <th class="text-uppercase">Nombre</th>
-            <th class="border-4 border-primary">Apellidos</th>
-            <th class="border shadow-lg ">Email</th>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Email</th>
             <th>Contraseña</th>
             <th>Dirección</th>
             <th>CP</th>
@@ -71,3 +71,4 @@
 </table>
 
 <?php require("layout/footer.php"); ?>
+
