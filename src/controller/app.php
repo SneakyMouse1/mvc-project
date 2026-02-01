@@ -27,7 +27,7 @@ class AppControlador
         $clientes->Seleccionar();
 
         $facturas = new FacturasModelo();
-        $facturas->Seleccionar();
+        // $facturas->Seleccionar();
 
         // Create a map of clients by ID for easy name lookup in the invoice list
         $clientesMap = [];

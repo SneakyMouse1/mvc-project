@@ -36,7 +36,7 @@ class ClientesControlador
             foreach ($clientes->filas as $fila) {
                 // Decrypt password for display (if needed) or other encrypted fields
                 // In this case, we decrypt 'contrasenya' (password), although usually passwords are not decrypted for display
-                $fila->contrasenya = Crypt::Desencriptar($fila->contrasenya);
+                $fila->contrasenia = Crypt::Desencriptar($fila->contrasenia);
             }
         }
         // --- END DECRYPTION ---
@@ -72,13 +72,13 @@ class ClientesControlador
         $cliente->apellidos = $_POST['apellidos'];
         $cliente->email = $_POST['email'];
 
-        $cliente->contrasenya = Crypt::Encriptar($_POST['contrasenya']);
+        $cliente->contrasenia = $_POST['contrasenia'];
         $cliente->direccion = $_POST['direccion'];
 
         $cliente->cp = $_POST['cp'];
         $cliente->poblacion = $_POST['poblacion'];
         $cliente->provincia = $_POST['provincia'];
-        $cliente->fecha_nac = $_POST['fecha_nac'];
+        $cliente->fdn = $_POST['fdn'];
 
         if ($cliente->Insertar() == 1) {
             header("location:" . URLSITE . '?c=clientes');
@@ -124,12 +124,12 @@ class ClientesControlador
         $cliente->nombre = $_POST['nombre'];
         $cliente->apellidos = $_POST['apellidos'];
         $cliente->email = $_POST['email'];
-        $cliente->contrasenya = Crypt::Encriptar($_POST['contrasenya']);
+        $cliente->contrasenia = Crypt::Encriptar($_POST['contrasenia']);
         $cliente->direccion = $_POST['direccion'];
         $cliente->cp = $_POST['cp'];
         $cliente->poblacion = $_POST['poblacion'];
         $cliente->provincia = $_POST['provincia'];
-        $cliente->fecha_nac = $_POST['fecha_nac'];
+        $cliente->fdn = $_POST['fdn'];
 
         // If data didn't change, Modificar method might return 0.
         // So we also check for absence of errors.

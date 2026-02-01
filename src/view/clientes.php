@@ -27,12 +27,12 @@
                     <td><?php echo $fila->nombre; ?></td>
                     <td><?php echo $fila->apellidos; ?></td>
                     <td><?php echo $fila->email; ?></td>
-                    <td><?php echo $fila->contrasenya; ?></td>
+                    <td><?php echo $fila->contrasenia; ?></td>
                     <td><?php echo $fila->direccion; ?></td>
                     <td><?php echo $fila->cp; ?></td>
                     <td><?php echo $fila->poblacion; ?></td>
                     <td><?php echo $fila->provincia; ?></td>
-                    <td><?php echo $fila->fecha_nac; ?></td>
+                    <td><?php echo $fila->fdn; ?></td>
                     <td style="text-align: right; width: 20%;">
                         <!-- Actions: edit, delete, view invoices -->
                         <a href="index.php?c=clientes&m=editar&id=<?php echo $fila->id; ?>">
